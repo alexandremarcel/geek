@@ -17,7 +17,7 @@
 </head>
 <body class="security-app">
  <h1>Accueil</h1>
- <form  method="post" action="home">
+ <form  method="post">
     <div class="lc-block">
    			 <div>
    			 <sql:setDataSource var="snapshot" driver="com.mysql.jdbc.Driver"

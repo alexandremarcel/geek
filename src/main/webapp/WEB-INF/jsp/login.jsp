@@ -8,11 +8,11 @@
 <head>
 <link href="<c:url value="css/app.css" />" rel="stylesheet"
 	type="text/css">
-<title>TP JEE</title>
+<title>TP JEE Geekstagram</title>
 </head>
 <body class="security-app">
 	<div class="details">
-		<h2>Mon beau site magnifique qui va me ramener une bonne note ;)</h2>
+		<h2>Authentification</h2>
 	</div>
 
 	<form action="/login" method="post">

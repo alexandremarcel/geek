@@ -23,6 +23,7 @@
 			<input type="submit" class="button red big" value="Sign Out" /> <input
 				type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
 		</form>
+		<a href="<spring:url value='/postbyuser' />">Posts</a>
 	</div>
 
 </body>

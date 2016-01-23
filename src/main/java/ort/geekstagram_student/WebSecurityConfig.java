@@ -32,7 +32,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
   .authoritiesByUsernameQuery(
 
    "select Nom, role from role where Nom=?");
-
  } 
 
  @Override
@@ -62,7 +61,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
  .and()
 
     .csrf();
-
  }
 
 }
